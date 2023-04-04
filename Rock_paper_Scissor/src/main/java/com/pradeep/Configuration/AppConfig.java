@@ -14,7 +14,7 @@ public class AppConfig {
 	@Bean
 	public SecurityFilterChain springSecurityConfiguration(HttpSecurity http) throws Exception{
 		
-		http.authorizeHttpRequests().requestMatchers(HttpMethod.POST,"/user")
+		http.authorizeHttpRequests().requestMatchers(HttpMethod.POST,"/users")
 		.permitAll()
 		.anyRequest()
 		.authenticated()

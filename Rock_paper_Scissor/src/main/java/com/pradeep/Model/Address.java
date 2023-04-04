@@ -1,6 +1,7 @@
 package com.pradeep.Model;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.Getter;
@@ -11,9 +12,11 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
+@NoArgsConstructor
 @Data
 public class Address {
 	
+	@Id
 	private Integer addressId;
 
 	private String city;

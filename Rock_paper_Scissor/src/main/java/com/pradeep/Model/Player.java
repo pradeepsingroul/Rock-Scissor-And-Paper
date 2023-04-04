@@ -17,6 +17,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
+@NoArgsConstructor
 public class Player {
 	
 	
