@@ -17,6 +17,8 @@ public class LoginController {
 	@Autowired
 	private PlayerService playerService;
 
+	
+	// login method it will take authenctication object and return user details if it exist
 	@GetMapping("/users/login")
 	private ResponseEntity<Player> getLoggenInPlayerDetailHandler(Authentication auth){
 		Player player = playerService.login(auth.getName());

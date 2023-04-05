@@ -23,7 +23,7 @@ public class PlayerController {
 	@Autowired
 	private PlayerService playerService;
 
-	
+	// by this method we are registering to the user by passing the user details
 	@PostMapping("/users")
     public ResponseEntity<Player> registerPlayerHandler(@RequestBody Player player){
 		player.setPassword(passwordEncoder.encode(player.getPassword()));
@@ -32,6 +32,7 @@ public class PlayerController {
 
     }
 	
+	// by this method we user will pass the Rock / Scissor / paper and it will return the winner
 	@GetMapping("/users")
     public ResponseEntity<String> findWinner(@RequestParam("RcokPapperScissor") String RcokPapperScissor){
 		
