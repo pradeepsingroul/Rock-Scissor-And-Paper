@@ -20,7 +20,7 @@ import lombok.Setter;
 @NoArgsConstructor
 public class Player {
 	
-	//player details
+	
 	@Id
 	@Email(message = "email should be in proper format")
 	private String email;
