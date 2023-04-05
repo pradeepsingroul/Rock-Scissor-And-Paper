@@ -16,6 +16,8 @@ import lombok.Setter;
 @Data
 public class Address {
 	
+	//player address
+	
 	@Id
 	private Integer addressId;
 
