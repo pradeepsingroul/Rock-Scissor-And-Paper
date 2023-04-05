@@ -31,6 +31,7 @@ public class PlayerController {
         return new ResponseEntity<>(player1, HttpStatus.CREATED);
 
     }
+	
 	@GetMapping("/users")
     public ResponseEntity<String> findWinner(@RequestParam("RcokPapperScissor") String RcokPapperScissor){
 		
