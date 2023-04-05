@@ -67,3 +67,4 @@ http://localhost:8080/swagger-ui
 ```
 
 ## Authors
+- [Pradeep Singroul (@pradeepsingroul) ](https://github.com/pradeepsingroul)
