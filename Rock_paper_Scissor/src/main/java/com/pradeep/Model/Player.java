@@ -20,6 +20,7 @@ import lombok.Setter;
 @NoArgsConstructor
 public class Player {
 	
+	//player details...
 	
 	@Id
 	@Email(message = "email should be in proper format")
@@ -34,5 +35,5 @@ public class Player {
 	@OneToOne(cascade = CascadeType.ALL)
 	private Address address;
 	
-
+    
 }
