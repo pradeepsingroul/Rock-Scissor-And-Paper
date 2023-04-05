@@ -11,6 +11,8 @@ import com.pradeep.Model.Player;
 @Repository
 public interface PlayerRepository extends JpaRepository<Player, String>{
 	
+	//player repo
+	
 	public Optional<Player> findByEmail(String email) throws playerException;
 
 }
