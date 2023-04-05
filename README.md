@@ -12,11 +12,30 @@ This is the game of Rock , Scissor and paper where player can pass the Rock/scis
 
 ## Features
  - User can register your self and login and then he/she can play the game
+ 
+ ## Rest Api
+ 
+ ```register 
+PostMethod-
+http://localhost:8080/users
+```
+
+```login 
+GetMethod-
+http://localhost:8080/users/login
+```
+
+```Play game 
+GetMethod-
+http://localhost:8888/users?RcokPapperScissor={your sign}
+```
+ 
 
 ## Tech Stack
 
 - Core Java
 - Spring Boot
+- Spring Security
 - MySQL (RDBMS)
 - Sql
 - Maven
