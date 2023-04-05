@@ -2,21 +2,16 @@
 This is the game of Rock , Scissor and paper where player can pass the Rock/scissor/paper and computer automatically generate your value and then it return Winner name.
 
 
-# WeatherProject
 
-![Logo](https://user-images.githubusercontent.com/104360276/221820586-f17ee6ff-a131-4ea1-91e2-849fab5b250d.jpeg)
 
-This is a basic weather project where we pass a pincode and the date and it will return the weather details like rain,clouds,temp,min_temp,max_temp,feel-Like,sunset,sunrise,etc-etc.
-there is only one user : user who can search weather for particular location.
+![360_F_332862747_zb0oXy6txyqlopzJAW3UNQJCPxTg7eUx](https://user-images.githubusercontent.com/104360276/229961021-4d33573e-da1e-40d1-90a3-6c0808b23ec0.jpg)
+
 
 ## ER Diagram
-
-![ER diagrame](https://user-images.githubusercontent.com/104360276/221812995-4469cb98-9005-42b3-84c9-2cd5f1c99a63.png)
-/view)
-
+![ER diagrame (1)](https://user-images.githubusercontent.com/104360276/229960730-1a3ea183-d453-4fdd-966b-62e16e4a9a6e.png)
 
 ## Features
- - user can search weather details for particular location and particular date, project will return weather details for that locations
+ - User can register your self and login and then he/she can play the game
 
 ## Tech Stack
 
