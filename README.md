@@ -17,13 +17,11 @@ This is the game of Rock , Scissor and paper where player can pass the Rock/scis
 
 - Core Java
 - Spring Boot
-- Hibernate
 - MySQL (RDBMS)
 - Sql
 - Maven
 - Swagger UI
 - postman
-- Intellij Idea
 - Giuhub
 
 
