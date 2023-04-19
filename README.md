@@ -1,5 +1,5 @@
 # Rock-Scissor-And-Paper
-This is the game of Rock , Scissor and paper where player can pass the Rock/scissor/paper and computer automatically generate your value and then it return Winner name.
+This is the game of Rock , Scissor and paper where two player exist one is computer and second is user user can pass the Rock/scissor/paper and computer automatically generate your value and then project compares both values and return the winner result based on the game rules.
 
 
 
