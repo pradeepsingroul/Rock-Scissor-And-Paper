@@ -17,6 +17,21 @@ import com.pradeep.Services.PlayerService;
 public class PlayerController {
 	
 	
+	public static void main(String[] args) {
+		printNumber(10);
+	}
+	
+	public static int printNumber(int number) {
+		if(number==0) {
+			return 0;
+		}else {
+			System.out.println(number);
+		}
+		return printNumber(number-1);
+	}
+	
+	
+	
 	@Autowired
 	private PasswordEncoder passwordEncoder;
 	
@@ -29,7 +44,6 @@ public class PlayerController {
 		player.setPassword(passwordEncoder.encode(player.getPassword()));
         Player player1 = playerService.registerUser(player);
         return new ResponseEntity<>(player1, HttpStatus.CREATED);
-
     }
 	
 	// by this method we user will pass the Rock / Scissor / paper and it will return the winner
@@ -45,4 +59,13 @@ public class PlayerController {
 	
 	
 	
+	
+	
+	
 }
+
+
+
+
+
+
