@@ -17,18 +17,6 @@ import com.pradeep.Services.PlayerService;
 public class PlayerController {
 	
 	
-	public static void main(String[] args) {
-		printNumber(10);
-	}
-	
-	public static int printNumber(int number) {
-		if(number==0) {
-			return 0;
-		}else {
-			System.out.println(number);
-		}
-		return printNumber(number-1);
-	}
 	
 	
 	
